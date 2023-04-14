@@ -28,24 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.NombreLabel = new System.Windows.Forms.Label();
+            this.ProductoLabel = new System.Windows.Forms.Label();
             this.PrecioLabel = new System.Windows.Forms.Label();
-            this.NombreTextBox = new System.Windows.Forms.TextBox();
+            this.ProductoTextBox = new System.Windows.Forms.TextBox();
             this.PrecioTextBox = new System.Windows.Forms.TextBox();
-            this.NombreListBox = new System.Windows.Forms.ListBox();
+            this.ProductoListBox = new System.Windows.Forms.ListBox();
             this.PrecioListBox = new System.Windows.Forms.ListBox();
             this.GuardarButton = new System.Windows.Forms.Button();
             this.TotalButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // NombreLabel
+            // ProductoLabel
             // 
-            this.NombreLabel.AutoSize = true;
-            this.NombreLabel.Location = new System.Drawing.Point(25, 41);
-            this.NombreLabel.Name = "NombreLabel";
-            this.NombreLabel.Size = new System.Drawing.Size(56, 16);
-            this.NombreLabel.TabIndex = 0;
-            this.NombreLabel.Text = "Nombre";
+            this.ProductoLabel.AutoSize = true;
+            this.ProductoLabel.Location = new System.Drawing.Point(25, 41);
+            this.ProductoLabel.Name = "ProductoLabel";
+            this.ProductoLabel.Size = new System.Drawing.Size(61, 16);
+            this.ProductoLabel.TabIndex = 0;
+            this.ProductoLabel.Text = "Producto";
             // 
             // PrecioLabel
             // 
@@ -56,12 +56,12 @@
             this.PrecioLabel.TabIndex = 1;
             this.PrecioLabel.Text = "Precio";
             // 
-            // NombreTextBox
+            // ProductoTextBox
             // 
-            this.NombreTextBox.Location = new System.Drawing.Point(111, 41);
-            this.NombreTextBox.Name = "NombreTextBox";
-            this.NombreTextBox.Size = new System.Drawing.Size(100, 22);
-            this.NombreTextBox.TabIndex = 2;
+            this.ProductoTextBox.Location = new System.Drawing.Point(111, 41);
+            this.ProductoTextBox.Name = "ProductoTextBox";
+            this.ProductoTextBox.Size = new System.Drawing.Size(100, 22);
+            this.ProductoTextBox.TabIndex = 2;
             // 
             // PrecioTextBox
             // 
@@ -70,14 +70,14 @@
             this.PrecioTextBox.Size = new System.Drawing.Size(100, 22);
             this.PrecioTextBox.TabIndex = 3;
             // 
-            // NombreListBox
+            // ProductoListBox
             // 
-            this.NombreListBox.FormattingEnabled = true;
-            this.NombreListBox.ItemHeight = 16;
-            this.NombreListBox.Location = new System.Drawing.Point(111, 85);
-            this.NombreListBox.Name = "NombreListBox";
-            this.NombreListBox.Size = new System.Drawing.Size(120, 276);
-            this.NombreListBox.TabIndex = 4;
+            this.ProductoListBox.FormattingEnabled = true;
+            this.ProductoListBox.ItemHeight = 16;
+            this.ProductoListBox.Location = new System.Drawing.Point(111, 85);
+            this.ProductoListBox.Name = "ProductoListBox";
+            this.ProductoListBox.Size = new System.Drawing.Size(120, 276);
+            this.ProductoListBox.TabIndex = 4;
             // 
             // PrecioListBox
             // 
@@ -116,11 +116,11 @@
             this.Controls.Add(this.TotalButton);
             this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.PrecioListBox);
-            this.Controls.Add(this.NombreListBox);
+            this.Controls.Add(this.ProductoListBox);
             this.Controls.Add(this.PrecioTextBox);
-            this.Controls.Add(this.NombreTextBox);
+            this.Controls.Add(this.ProductoTextBox);
             this.Controls.Add(this.PrecioLabel);
-            this.Controls.Add(this.NombreLabel);
+            this.Controls.Add(this.ProductoLabel);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -130,11 +130,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label NombreLabel;
+        private System.Windows.Forms.Label ProductoLabel;
         private System.Windows.Forms.Label PrecioLabel;
-        private System.Windows.Forms.TextBox NombreTextBox;
+        private System.Windows.Forms.TextBox ProductoTextBox;
         private System.Windows.Forms.TextBox PrecioTextBox;
-        private System.Windows.Forms.ListBox NombreListBox;
+        private System.Windows.Forms.ListBox ProductoListBox;
         private System.Windows.Forms.ListBox PrecioListBox;
         private System.Windows.Forms.Button GuardarButton;
         private System.Windows.Forms.Button TotalButton;

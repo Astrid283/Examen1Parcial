@@ -12,7 +12,7 @@ namespace AstridDiaz
 {
     public partial class Form2 : Form
     {
-        List<string> ListaNombres = new List<string>();
+        List<string> ListaProducto = new List<string>();
         List<decimal> ListaCantidad = new List<decimal>();
         List<decimal> ListaPrecios = new List<decimal>();
         public Form2()
@@ -50,14 +50,14 @@ namespace AstridDiaz
         private void GuardarButton_Click(object sender, EventArgs e)
         {
             string nombre;
-            nombre = NombreTextBox.Text;
+            nombre = ProductoTextBox.Text;
             decimal precio;
             precio = Convert.ToDecimal(PrecioTextBox.Text);
 
             //Acumulamos los nombres en la lista
-            ListaNombres.Add(nombre);
-            NombreListBox.DataSource = null;
-            NombreListBox.DataSource = ListaNombres;
+            ListaProducto.Add(nombre);
+            ProductoListBox.DataSource = null;
+            ProductoListBox.DataSource = ListaProducto;
 
             //Acumulamos los precios en la lista
             ListaPrecios.Add(precio);
