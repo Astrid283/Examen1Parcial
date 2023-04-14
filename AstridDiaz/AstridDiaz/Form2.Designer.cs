@@ -36,6 +36,7 @@
             this.PrecioListBox = new System.Windows.Forms.ListBox();
             this.GuardarButton = new System.Windows.Forms.Button();
             this.TotalButton = new System.Windows.Forms.Button();
+            this.FacturaLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ProductoLabel
@@ -108,11 +109,21 @@
             this.TotalButton.UseVisualStyleBackColor = true;
             this.TotalButton.Click += new System.EventHandler(this.TotalButton_Click);
             // 
+            // FacturaLabel
+            // 
+            this.FacturaLabel.AutoSize = true;
+            this.FacturaLabel.Location = new System.Drawing.Point(25, 9);
+            this.FacturaLabel.Name = "FacturaLabel";
+            this.FacturaLabel.Size = new System.Drawing.Size(52, 16);
+            this.FacturaLabel.TabIndex = 8;
+            this.FacturaLabel.Text = "Factura";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.FacturaLabel);
             this.Controls.Add(this.TotalButton);
             this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.PrecioListBox);
@@ -138,5 +149,6 @@
         private System.Windows.Forms.ListBox PrecioListBox;
         private System.Windows.Forms.Button GuardarButton;
         private System.Windows.Forms.Button TotalButton;
+        private System.Windows.Forms.Label FacturaLabel;
     }
 }
