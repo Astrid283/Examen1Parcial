@@ -30,6 +30,7 @@
         {
             this.GenerarButton = new System.Windows.Forms.Button();
             this.NumerosListBox = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // GenerarButton
@@ -52,16 +53,27 @@
             this.NumerosListBox.TabIndex = 1;
             this.NumerosListBox.SelectedIndexChanged += new System.EventHandler(this.NumerosListBox_SelectedIndexChanged);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(112, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(132, 16);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Numeros del 1 al 100";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 620);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.NumerosListBox);
             this.Controls.Add(this.GenerarButton);
             this.Name = "Form3";
             this.Text = "Form3";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -69,5 +81,6 @@
 
         private System.Windows.Forms.Button GenerarButton;
         private System.Windows.Forms.ListBox NumerosListBox;
+        private System.Windows.Forms.Label label1;
     }
 }
